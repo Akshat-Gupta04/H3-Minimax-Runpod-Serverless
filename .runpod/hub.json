@@ -1,6 +1,6 @@
 {
-  "title": "MiniMax_H3_Video",
-  "description": "MiniMax H3 text-to-video, image-to-video, and reference-to-video (1–4 refs, native audio) on RunPod Serverless via ComfyUI. Includes turbo_mode, realism LoRA, and dynamic network-volume LoRAs.",
+  "title": "H3_Minimax_Runpod_Serverless",
+  "description": "MiniMax H3 T2V / I2V / R2V on RunPod Serverless (ComfyUI). Turbo baked; realism + any Hugging Face LoRA via download URL + hf_token.",
   "type": "serverless",
   "category": "video",
   "iconUrl": "https://github.com/wlsdml1114/Engui_Studio/blob/main/assets/logo.png?raw=true",
