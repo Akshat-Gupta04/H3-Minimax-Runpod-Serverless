@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+*.mp4
+*.png
+*.jpg
+.DS_Store
+examples/output/*
+!examples/output/.gitkeep
+# Large weights — fetch from Hub during Docker build (see Dockerfile)
+models/loras/*.safetensors

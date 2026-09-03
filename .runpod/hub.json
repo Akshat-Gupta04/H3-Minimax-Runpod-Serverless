@@ -1,0 +1,18 @@
+{
+  "title": "MiniMax_H3_Video",
+  "description": "MiniMax H3 text-to-video, image-to-video, and reference-to-video (1–4 refs, native audio) on RunPod Serverless via ComfyUI. Includes turbo_mode, realism LoRA, and dynamic network-volume LoRAs.",
+  "type": "serverless",
+  "category": "video",
+  "iconUrl": "https://github.com/wlsdml1114/Engui_Studio/blob/main/assets/logo.png?raw=true",
+
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 200,
+    "gpuCount": 1,
+    "gpuIds": "ADA_48_PRO,ADA_48,A100_80,A40",
+    "allowedCudaVersions": [
+      "12.8",
+      "12.6"
+    ]
+  }
+}
