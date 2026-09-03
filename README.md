@@ -1,8 +1,18 @@
 # H3 Minimax RunPod Serverless
 
-Deploy **[MiniMax H3](https://www.minimax.io/blog/minimax-h3)** video generation on **[RunPod Serverless](https://www.runpod.io/product/serverless)** — text-to-video (T2V), image-to-video (I2V), and reference-to-video (R2V) with optional turbo, realism, and any Hugging Face LoRA via a download URL.
+Deploy **[MiniMax H3](https://www.minimax.io/blog/minimax-h3)** video generation on **[RunPod Serverless](https://runpod.io?ref=5cr29bpt)** — text-to-video (T2V), image-to-video (I2V), and reference-to-video (R2V) with optional turbo, realism, and any Hugging Face LoRA via a download URL.
 
 This repo is a ready-to-build ComfyUI worker: bake the base models once, push an image, create a serverless endpoint, and call it with JSON.
+
+---
+
+## Get RunPod credit
+
+Need a RunPod account to deploy this worker?
+
+**[Register on RunPod now](https://runpod.io?ref=5cr29bpt)** and get a **one-time credit from $5–$500**.
+
+Use that credit toward GPUs for building, testing, and running this MiniMax H3 serverless endpoint.
 
 ---
 
@@ -27,7 +37,7 @@ Extras:
 
 - Docker (local build) or RunPod Hub build  
 - Hugging Face account + token (for model bake and private LoRAs)  
-- RunPod account  
+- [RunPod account](https://runpod.io?ref=5cr29bpt) (register now — one-time credit **$5–$500**)  
 - GPU workers with **≥ 48 GB VRAM** and large container disk (weights are multi‑GB)
 
 ---
@@ -78,6 +88,8 @@ docker push YOUR_DOCKERHUB_USER/h3-minimax-runpod-serverless:latest
 Or build/push via **RunPod Hub** from this GitHub repo.
 
 ### 4. Create a RunPod Serverless endpoint
+
+New to RunPod? **[Sign up here](https://runpod.io?ref=5cr29bpt)** for a one-time credit (**$5–$500**).
 
 1. RunPod Console → **Serverless** → **New Endpoint**  
 2. Select your image  
@@ -326,7 +338,8 @@ Decode base64 to an `.mp4` file in your app or article demo.
 - [lightx2v/Minimax-h3-Turbo](https://huggingface.co/lightx2v/Minimax-h3-Turbo)  
 - [fal/MiniMax-H3-Realism-People-LoRA](https://huggingface.co/fal/MiniMax-H3-Realism-People-LoRA)  
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)  
-- [RunPod Serverless](https://docs.runpod.io/serverless/overview)
+- [RunPod Serverless](https://docs.runpod.io/serverless/overview)  
+- [Sign up for RunPod](https://runpod.io?ref=5cr29bpt) (one-time credit $5–$500)
 
 ## License
 
