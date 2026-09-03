@@ -4,6 +4,8 @@ Deploy **[MiniMax H3](https://www.minimax.io/blog/minimax-h3)** video generation
 
 This repo is a ready-to-build ComfyUI worker: bake the base models once, push an image, create a serverless endpoint, and call it with JSON.
 
+**Full RunPod GitHub deploy walkthrough:** see **[DEPLOY.md](./DEPLOY.md)**.
+
 ---
 
 ## Get RunPod credit
