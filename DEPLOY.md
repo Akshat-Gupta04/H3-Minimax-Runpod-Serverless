@@ -1,5 +1,7 @@
 # Deploy MiniMax H3 on RunPod Serverless (T2V / I2V / R2V)
 
+**Deploy once. Use anytime. You’re charged for execution time — not for the image build.**
+
 A step-by-step guide to deploy **[H3 Minimax RunPod Serverless](https://github.com/Akshat-Gupta04/H3-Minimax-Runpod-Serverless)** from GitHub — no local Docker required.
 
 **Worker repo:** https://github.com/Akshat-Gupta04/H3-Minimax-Runpod-Serverless
